@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Loading the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/deena/Diabetes Project app/trained_model.sav', 'rb'))
 
 def diabetes_prediction(input_data):
     # Ensure input data is numeric
