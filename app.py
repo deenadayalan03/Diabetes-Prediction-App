@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
+import lightgbm
 
 # Loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
