@@ -1,6 +1,5 @@
 numpy
 pickle-mixin
-python
 streamlit
 scikit-learn
-lightgbm
+lightgbm[pandas]
