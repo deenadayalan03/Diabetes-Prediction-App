@@ -1,6 +1,10 @@
+import os
 import streamlit as st
 import numpy as np
 import pickle
+
+# getting the working directory of the main.py
+# working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
