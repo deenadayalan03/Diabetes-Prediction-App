@@ -1,1 +1,12 @@
 # Diabetes-Prediction-App
+
+
+
+
+
+
+
+
+
+
+
